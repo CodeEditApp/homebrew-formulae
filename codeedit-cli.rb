@@ -14,6 +14,6 @@ class CodeeditCli < Formula
   end
 
   test do
-    system "true"
+    assert_match "OVERVIEW", shell_output("#{bin}/codeedit --help")
   end
 end
