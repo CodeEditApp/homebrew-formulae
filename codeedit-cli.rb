@@ -2,7 +2,7 @@ class CodeeditCli < Formula
   desc "A command-line-interface to open files/folders in CodeEdit.app"
   homepage "https://github.com/CodeEditApp/CodeEditCLI"
   url "https://github.com/CodeEditApp/CodeEditCLI/archive/refs/tags/0.0.9.tar.gz"
-  sha256 "ffe71850771f8c04a65f6b1252b179caf129ccdd6abacb15b1882c17e2f237a0"
+  sha256 "dac1795afea06016d13235c729f65cd4eb5116d1839f7eaefb9c5548ae6b26bc"
   license "MIT"
 
   depends_on xcode: ["14.0", :build]
